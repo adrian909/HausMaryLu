@@ -8,7 +8,7 @@
     },
     "haus": {
       "title": "Apartamentele și galeria foto – Haus MaryLu",
-      "description": "Apartamente cu bucătărie modernă, baie privată și terasă. Galerie foto completă a pensiunii Haus MaryLu din Markersdorf-Haindorf."
+      "description": "Apartamente cu bucătărie modernă, două băi și terasă. Galerie foto completă a pensiunii Haus MaryLu din Markersdorf-Haindorf."
     },
     "contact": {
       "title": "Contact și rezervări – Haus MaryLu",
@@ -40,7 +40,7 @@
     "wifi": "Wi-Fi gratuit",
     "parking": "Parcare privată gratuită",
     "kitchen": "Bucătărie complet utilată",
-    "bathroom": "Baie privată cu duș",
+    "bathroom": "Două băi private în fiecare apartament",
     "tv": "TV cu ecran plat și canale prin satelit",
     "terrace": "Terasă cu vedere",
     "garden": "Grădină pentru relaxare",
@@ -65,11 +65,12 @@
     "altLiving": "Livingul unui apartament Haus MaryLu",
     "altKitchen": "Bucătăria complet utilată a apartamentului",
     "altBedroom": "Dormitor din apartamentele Haus MaryLu",
-    "altBath": "Baie privată cu duș",
+    "altBath": "Una dintre cele două băi private ale apartamentului",
     "altTerrace": "Terasa apartamentului, cu vedere",
     "counter": "{current} din {total}"
   },
   "places": {
+    "danube": "Dunărea și portul",
     "melk": "Abația Melk",
     "lilienfeld": "Abația Lilienfeld",
     "ferdinand": "Muzeul Erzherzog Franz Ferdinand",
@@ -86,8 +87,8 @@
     "introEyebrow": "Despre noi",
     "introTitle": "Un loc superb în care să te bucuri de viață",
     "introParagraphs": [
-      "Haus MaryLu se află în Knetzersdorf, la 15 km de Abația Melk, și oferă vedere la râu, Wi-Fi gratuit și parcare privată gratuită.",
-      "Fiecare unitate are o terasă cu vedere, un televizor cu ecran plat și canale prin satelit, o bucătărie complet utilată și o baie privată cu duș și uscător de păr. Oaspeții au la dispoziție un minibar, o plită, un prăjitor de pâine, precum și o cafetieră și un fierbător electric.",
+      "Haus MaryLu se află în Winkel, la 15 km de Abația Melk și la circa 10 km de Dunăre, și oferă Wi-Fi gratuit și parcare privată gratuită.",
+      "Fiecare unitate are o terasă cu vedere, un televizor cu ecran plat și canale prin satelit, o bucătărie complet utilată și două băi private, cu duș și uscător de păr. Oaspeții au la dispoziție un minibar, o plită, un prăjitor de pâine, precum și o cafetieră și un fierbător electric.",
       "Oaspeții se pot relaxa în grădina proprietății, iar accesul dinspre autostradă este foarte facil."
     ],
     "amenitiesEyebrow": "Facilități",
@@ -117,6 +118,7 @@
     "nearbyEyebrow": "Împrejurimi",
     "nearbyTitle": "Wachau, la câteva minute distanță",
     "nearbyLead": "Suntem la marginea uneia dintre cele mai frumoase regiuni ale Austriei, cu acces rapid dinspre autostradă.",
+    "boatNote": "La circa 10 km se află Dunărea și portul, de unde în sezon pleacă zilnic excursii cu vaporul.",
     "sightsTitle": "De văzut în apropiere",
     "distancesTitle": "Distanțe",
     "ctaTitle": "Vino să stai la noi",
@@ -138,7 +140,7 @@
         "eyebrow": "Apartamentele",
         "title": "Apartamente spațioase, confort ca acasă",
         "paragraphs": [
-          "La Haus MaryLu, apartamentele sunt complet echipate pentru a-ți oferi o ședere relaxantă și lipsită de griji. Fiecare unitate are bucătărie modernă, baie privată, terasă sau balcon cu vedere, și toate facilitățile necesare confortului zilnic.",
+          "La Haus MaryLu, apartamentele sunt complet echipate pentru a-ți oferi o ședere relaxantă și lipsită de griji. Fiecare unitate are bucătărie modernă, două băi private, terasă sau balcon cu vedere, și toate facilitățile necesare confortului zilnic.",
           "Fie că ești în tranzit sau planifici o vacanță în regiunea Wachau, aici vei găsi liniște, intimitate și ospitalitate autentică."
         ]
       }

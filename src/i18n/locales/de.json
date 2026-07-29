@@ -8,7 +8,7 @@
     },
     "haus": {
       "title": "Die Apartments und Fotogalerie – Haus MaryLu",
-      "description": "Apartments mit moderner Küche, eigenem Bad und Terrasse. Komplette Fotogalerie des Haus MaryLu in Markersdorf-Haindorf."
+      "description": "Apartments mit moderner Küche, zwei Bädern und Terrasse. Komplette Fotogalerie des Haus MaryLu in Markersdorf-Haindorf."
     },
     "contact": {
       "title": "Kontakt & Buchung – Haus MaryLu",
@@ -40,7 +40,7 @@
     "wifi": "Kostenloses WLAN",
     "parking": "Kostenlose Privatparkplätze",
     "kitchen": "Voll ausgestattete Küche",
-    "bathroom": "Eigenes Bad mit Dusche",
+    "bathroom": "Zwei eigene Bäder in jedem Apartment",
     "tv": "Flachbild-TV mit Satellitenkanälen",
     "terrace": "Terrasse mit Aussicht",
     "garden": "Garten zum Entspannen",
@@ -65,11 +65,12 @@
     "altLiving": "Wohnzimmer eines Apartments im Haus MaryLu",
     "altKitchen": "Die voll ausgestattete Küche des Apartments",
     "altBedroom": "Schlafzimmer in den Apartments des Haus MaryLu",
-    "altBath": "Eigenes Bad mit Dusche",
+    "altBath": "Eines der beiden eigenen Bäder des Apartments",
     "altTerrace": "Die Terrasse des Apartments mit Aussicht",
     "counter": "{current} von {total}"
   },
   "places": {
+    "danube": "Die Donau und der Schiffsanleger",
     "melk": "Stift Melk",
     "lilienfeld": "Stift Lilienfeld",
     "ferdinand": "Erzherzog-Franz-Ferdinand-Museum",
@@ -86,8 +87,8 @@
     "introEyebrow": "Über uns",
     "introTitle": "Ein wunderschöner Ort, um das Leben zu genießen",
     "introParagraphs": [
-      "Haus MaryLu befindet sich in Knetzersdorf, 15 km von Stift Melk entfernt, und bietet Flussblick, kostenloses WLAN und kostenfreie Privatparkplätze.",
-      "Jede Unterkunft verfügt über eine Terrasse mit Aussicht, einen Flachbild-Sat-TV, eine voll ausgestattete Küche sowie ein eigenes Bad mit Dusche und Haartrockner. Den Gästen stehen außerdem eine Minibar, ein Kochfeld, ein Toaster, eine Kaffeemaschine und ein Wasserkocher zur Verfügung.",
+      "Haus MaryLu befindet sich in Winkel, 15 km von Stift Melk und rund 10 km von der Donau entfernt, und bietet kostenloses WLAN und kostenfreie Privatparkplätze.",
+      "Jede Unterkunft verfügt über eine Terrasse mit Aussicht, einen Flachbild-Sat-TV, eine voll ausgestattete Küche sowie zwei eigene Bäder mit Dusche und Haartrockner. Den Gästen stehen außerdem eine Minibar, ein Kochfeld, ein Toaster, eine Kaffeemaschine und ein Wasserkocher zur Verfügung.",
       "Die Gäste können sich im Garten der Unterkunft entspannen, und die Autobahn ist nur wenige Minuten entfernt."
     ],
     "amenitiesEyebrow": "Ausstattung",
@@ -117,6 +118,7 @@
     "nearbyEyebrow": "Die Umgebung",
     "nearbyTitle": "Die Wachau, nur Minuten entfernt",
     "nearbyLead": "Wir liegen am Rand einer der schönsten Regionen Österreichs, mit schneller Anbindung an die Autobahn.",
+    "boatNote": "Die Donau und der Schiffsanleger sind rund 10 km entfernt — in der Saison starten dort täglich Schiffsausflüge.",
     "sightsTitle": "Sehenswert in der Nähe",
     "distancesTitle": "Entfernungen",
     "ctaTitle": "Kommen Sie zu uns",
@@ -138,7 +140,7 @@
         "eyebrow": "Die Apartments",
         "title": "Geräumige Apartments – Komfort wie zu Hause",
         "paragraphs": [
-          "Im Haus MaryLu sind die Apartments komplett ausgestattet, um Ihnen einen entspannten und sorgenfreien Aufenthalt zu bieten. Jede Einheit verfügt über eine moderne Küche, ein privates Bad, eine Terrasse oder einen Balkon mit Aussicht sowie alle Annehmlichkeiten für täglichen Komfort.",
+          "Im Haus MaryLu sind die Apartments komplett ausgestattet, um Ihnen einen entspannten und sorgenfreien Aufenthalt zu bieten. Jede Einheit verfügt über eine moderne Küche, zwei eigene Bäder, eine Terrasse oder einen Balkon mit Aussicht sowie alle Annehmlichkeiten für täglichen Komfort.",
           "Ob Sie nur auf der Durchreise sind oder einen Urlaub in der Wachau planen – hier finden Sie Ruhe, Privatsphäre und echte österreichische Gastfreundschaft."
         ]
       }

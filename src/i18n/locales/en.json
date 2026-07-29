@@ -8,7 +8,7 @@
     },
     "haus": {
       "title": "The apartments and photo gallery – Haus MaryLu",
-      "description": "Apartments with a modern kitchen, private bathroom and terrace. Full photo gallery of Haus MaryLu in Markersdorf-Haindorf."
+      "description": "Apartments with a modern kitchen, two bathrooms and a terrace. Full photo gallery of Haus MaryLu in Markersdorf-Haindorf."
     },
     "contact": {
       "title": "Contact & bookings – Haus MaryLu",
@@ -40,7 +40,7 @@
     "wifi": "Free Wi-Fi",
     "parking": "Free private parking",
     "kitchen": "Fully equipped kitchen",
-    "bathroom": "Private bathroom with shower",
+    "bathroom": "Two private bathrooms in every apartment",
     "tv": "Flat-screen TV with satellite channels",
     "terrace": "Terrace with a view",
     "garden": "Garden to relax in",
@@ -65,11 +65,12 @@
     "altLiving": "Living room in a Haus MaryLu apartment",
     "altKitchen": "The apartment's fully equipped kitchen",
     "altBedroom": "Bedroom in the Haus MaryLu apartments",
-    "altBath": "Private bathroom with shower",
+    "altBath": "One of the apartment’s two private bathrooms",
     "altTerrace": "The apartment terrace, with a view",
     "counter": "{current} of {total}"
   },
   "places": {
+    "danube": "The Danube and the river port",
     "melk": "Melk Abbey",
     "lilienfeld": "Lilienfeld Abbey",
     "ferdinand": "Erzherzog Franz Ferdinand Museum",
@@ -86,8 +87,8 @@
     "introEyebrow": "About us",
     "introTitle": "A beautiful place to enjoy life",
     "introParagraphs": [
-      "Haus MaryLu is located in Knetzersdorf, 15 km from Melk Abbey, and offers river views, free Wi-Fi and free private parking.",
-      "Each unit features a terrace with a view, a flat-screen TV with satellite channels, a fully equipped kitchen and a private bathroom with a shower and a hairdryer. Guests also have a minibar, a stovetop, a toaster, a coffee machine and an electric kettle.",
+      "Haus MaryLu is located in Winkel, 15 km from Melk Abbey and about 10 km from the Danube, and offers free Wi-Fi and free private parking.",
+      "Each unit features a terrace with a view, a flat-screen TV with satellite channels, a fully equipped kitchen and two private bathrooms, with a shower and a hairdryer. Guests also have a minibar, a stovetop, a toaster, a coffee machine and an electric kettle.",
       "Guests can relax in the property's garden, and the motorway is only minutes away."
     ],
     "amenitiesEyebrow": "Amenities",
@@ -117,6 +118,7 @@
     "nearbyEyebrow": "The area",
     "nearbyTitle": "The Wachau, minutes away",
     "nearbyLead": "We sit on the edge of one of Austria's most beautiful regions, with quick access from the motorway.",
+    "boatNote": "The Danube and its river port are about 10 km away, with daily boat trips throughout the season.",
     "sightsTitle": "Worth seeing nearby",
     "distancesTitle": "Distances",
     "ctaTitle": "Come and stay with us",
@@ -138,7 +140,7 @@
         "eyebrow": "The apartments",
         "title": "Spacious apartments, comfort like home",
         "paragraphs": [
-          "At Haus MaryLu, the apartments are fully equipped to offer you a relaxing and worry-free stay. Each unit includes a modern kitchen, private bathroom, terrace or balcony with a view, and all the amenities needed for everyday comfort.",
+          "At Haus MaryLu, the apartments are fully equipped to offer you a relaxing and worry-free stay. Each unit includes a modern kitchen, two private bathrooms, a terrace or balcony with a view, and all the amenities needed for everyday comfort.",
           "Whether you're just passing through or planning a holiday in the Wachau region, here you'll find peace, privacy and authentic Austrian hospitality."
         ]
       }

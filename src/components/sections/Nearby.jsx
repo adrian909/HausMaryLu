@@ -36,6 +36,11 @@ export default function Nearby() {
               </li>
             ))}
           </ul>
+
+          <p className={styles.note}>
+            <Icon name="boat" size={18} />
+            {t('home.boatNote')}
+          </p>
         </Reveal>
       </div>
     </section>

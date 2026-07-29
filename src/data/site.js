@@ -37,6 +37,7 @@ export const highlights = [
 
 /** Distances quoted on the property listing. */
 export const distances = [
+  { id: 'danube', km: 10 },
   { id: 'melk', km: 15 },
   { id: 'lilienfeld', km: 29 },
   { id: 'ferdinand', km: 31 },
