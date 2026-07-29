@@ -1,0 +1,68 @@
+# Apache config for classic/shared hosting (cPanel, Plesk, FTP upload).
+# On Netlify use public/_redirects instead; on Vercel, vercel.json.
+# Apache never serves this file itself, so it is safe to upload.
+
+# --- Canonical host --------------------------------------------------------
+# The <link rel="canonical"> tags point at https://hausmarylu.at (no www),
+# so send everything else there. Every URL must resolve to exactly one address
+# or search engines treat the variants as duplicate pages.
+#
+# REMOVE the HTTPS block if the domain has no SSL certificate yet — otherwise
+# the site becomes unreachable.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^ https://hausmarylu.at%{REQUEST_URI} [R=301,L]
+
+  RewriteCond %{HTTP_HOST} ^www\. [NC]
+  RewriteRule ^ https://hausmarylu.at%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+# --- Old URLs from the previous static site --------------------------------
+<IfModule mod_alias.c>
+  Redirect 301 /index-ro.html    /ro/
+  Redirect 301 /index-de.html    /de/
+  Redirect 301 /haus-en.html     /en/haus/
+  Redirect 301 /haus-ro.html     /ro/haus/
+  Redirect 301 /haus-de.html     /de/haus/
+  Redirect 301 /contact-en.html  /en/contact/
+  Redirect 301 /contact-ro.html  /ro/contact/
+  Redirect 301 /contact-de.html  /de/contact/
+</IfModule>
+
+# --- Not found -------------------------------------------------------------
+# Every real route is a prerendered file, so anything missing is a genuine 404.
+# Do not rewrite unknown paths to index.html: that turns them into soft 404s.
+ErrorDocument 404 /404.html
+
+# --- Compression -----------------------------------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml \
+    application/javascript application/json application/xml image/svg+xml
+</IfModule>
+
+# --- Caching ---------------------------------------------------------------
+# Filenames in /assets/ carry a content hash, so they can be cached forever.
+# HTML must not be, or visitors keep seeing the previous deploy.
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault                        "access plus 1 month"
+  ExpiresByType text/html               "access plus 0 seconds"
+  ExpiresByType application/xml         "access plus 1 day"
+  ExpiresByType text/plain              "access plus 1 day"
+  ExpiresByType image/jpeg              "access plus 1 month"
+  ExpiresByType image/svg+xml           "access plus 1 month"
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+# --- Encoding --------------------------------------------------------------
+AddDefaultCharset UTF-8

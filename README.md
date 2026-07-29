@@ -116,10 +116,21 @@ telefoanele sunt `tel:`. Un site static nu poate trimite mail singur.
 
 ## Deploy
 
-Aplicația e în rădăcina repo-ului, deci Netlify și Vercel o detectează fără
-configurare suplimentară — build command `npm run build`, publish directory `dist`.
-Sunt incluse `public/_redirects` (Netlify) și `vercel.json` (Vercel), amândouă cu
-redirect-urile 301 de la URL-urile vechi.
+`npm run build` produce `dist/`. **Se urcă tot conținutul lui `dist/`**, cu structura
+de foldere intactă (`ro/`, `en/`, `de/`, `assets/`, `img/`) — nu doar `assets/`, care
+e strict JS-ul și CSS-ul.
+
+**Hosting clasic (FTP / cPanel)** — copiezi conținutul lui `dist/` în `public_html/`.
+`public/.htaccess` merge odată cu el și se ocupă de redirect-urile 301, de 404, de
+compresie și de cache. Verifică în el blocul de HTTPS: dacă domeniul n-are încă
+certificat SSL, șterge-l, altfel site-ul devine inaccesibil.
+
+**Netlify / Vercel** — proiectul e în rădăcina repo-ului, deci e detectat fără
+configurare: build command `npm run build`, publish directory `dist`. Redirect-urile
+vin din `public/_redirects`, respectiv `vercel.json`.
+
+Fiecare platformă își citește doar propriul fișier și le ignoră pe celelalte, deci
+toate trei pot sta liniștite în repo.
 
 **Atenție:** nu pune un rewrite de tip `/* → /index.html 200`. Fiecare rută are
 deja fișierul ei prerandat, iar un catch-all le-ar acoperi pe toate cu pagina de
