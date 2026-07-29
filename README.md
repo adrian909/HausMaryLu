@@ -2,7 +2,8 @@
 
 Site-ul pensiunii Haus MaryLu (Markersdorf-Haindorf, Austria) — **React + Vite**, design propriu,
 fără framework de CSS, **prerandat static** pentru SEO.
-Înlocuiește vechiul template din [`../villa-master/`](../villa-master/).
+Înlocuiește vechiul template static al site-ului, care a fost eliminat din repo —
+rămâne recuperabil din istoric: `git checkout 75c64e2 -- villa-master images`.
 
 ## Comenzi
 
@@ -115,8 +116,10 @@ telefoanele sunt `tel:`. Un site static nu poate trimite mail singur.
 
 ## Deploy
 
-`npm run build` → `dist/`. Sunt incluse `public/_redirects` (Netlify) și
-`vercel.json` (Vercel), amândouă cu redirect-urile 301 de la URL-urile vechi.
+Aplicația e în rădăcina repo-ului, deci Netlify și Vercel o detectează fără
+configurare suplimentară — build command `npm run build`, publish directory `dist`.
+Sunt incluse `public/_redirects` (Netlify) și `vercel.json` (Vercel), amândouă cu
+redirect-urile 301 de la URL-urile vechi.
 
 **Atenție:** nu pune un rewrite de tip `/* → /index.html 200`. Fiecare rută are
 deja fișierul ei prerandat, iar un catch-all le-ar acoperi pe toate cu pagina de
