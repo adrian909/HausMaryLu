@@ -1,0 +1,13 @@
+# Legacy URLs from the previous static site.
+/index-ro.html      /ro/            301
+/index-de.html      /de/            301
+/haus-en.html       /en/haus/       301
+/haus-ro.html       /ro/haus/       301
+/haus-de.html       /de/haus/       301
+/contact-en.html    /en/contact/    301
+/contact-ro.html    /ro/contact/    301
+/contact-de.html    /de/contact/    301
+
+# Every real route is a prerendered file, so anything left is genuinely missing.
+# A 200 catch-all here would turn missing pages into soft 404s.
+/*                  /404.html       404

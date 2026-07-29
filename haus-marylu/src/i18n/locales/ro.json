@@ -1,0 +1,173 @@
+{
+  "label": "Română",
+  "htmlLang": "ro",
+  "meta": {
+    "home": {
+      "title": "Haus MaryLu – Apartamente lângă Abația Melk, Austria",
+      "description": "Apartamente spațioase, complet utilate, în Markersdorf-Haindorf. Wi-Fi și parcare gratuite, terasă cu vedere, la 15 km de Abația Melk și valea Wachau."
+    },
+    "haus": {
+      "title": "Apartamentele și galeria foto – Haus MaryLu",
+      "description": "Apartamente cu bucătărie modernă, baie privată și terasă. Galerie foto completă a pensiunii Haus MaryLu din Markersdorf-Haindorf."
+    },
+    "contact": {
+      "title": "Contact și rezervări – Haus MaryLu",
+      "description": "Scrie-ne pe hausmarylu@gmail.com sau sună-ne. Adresă: Winkel 8, 3384 Markersdorf-Haindorf, Austria."
+    }
+  },
+  "nav": {
+    "home": "Acasă",
+    "haus": "Casa",
+    "contact": "Contact",
+    "openMenu": "Deschide meniul",
+    "closeMenu": "Închide meniul",
+    "skipToContent": "Sari la conținut"
+  },
+  "common": {
+    "location": "Markersdorf-Haindorf",
+    "book": "Rezervă pe Booking",
+    "contact": "Contactează-ne",
+    "viewGallery": "Vezi toate pozele",
+    "writeEmail": "Scrie-ne un email",
+    "call": "Sună-ne",
+    "scroll": "Derulează",
+    "openPhoto": "Deschide fotografia",
+    "previous": "Fotografia anterioară",
+    "next": "Fotografia următoare",
+    "close": "Închide"
+  },
+  "amenities": {
+    "wifi": "Wi-Fi gratuit",
+    "parking": "Parcare privată gratuită",
+    "kitchen": "Bucătărie complet utilată",
+    "bathroom": "Baie privată cu duș",
+    "tv": "TV cu ecran plat și canale prin satelit",
+    "terrace": "Terasă cu vedere",
+    "garden": "Grădină pentru relaxare",
+    "coffee": "Cafetieră și fierbător electric",
+    "minibar": "Minibar, plită și prăjitor de pâine"
+  },
+  "highlights": {
+    "wifi": "Wi-Fi gratuit în toate apartamentele",
+    "parking": "Parcare privată gratuită la proprietate",
+    "kitchen": "Bucătărie proprie, complet echipată",
+    "melk": "La 15 km de Abația Melk"
+  },
+  "gallery": {
+    "all": "Toate",
+    "exterior": "Exterior",
+    "living": "Living",
+    "kitchen": "Bucătărie",
+    "bedroom": "Dormitor",
+    "bath": "Baie",
+    "terrace": "Terasă",
+    "altExterior": "Exteriorul pensiunii Haus MaryLu",
+    "altLiving": "Livingul unui apartament Haus MaryLu",
+    "altKitchen": "Bucătăria complet utilată a apartamentului",
+    "altBedroom": "Dormitor din apartamentele Haus MaryLu",
+    "altBath": "Baie privată cu duș",
+    "altTerrace": "Terasa apartamentului, cu vedere",
+    "counter": "{current} din {total}"
+  },
+  "places": {
+    "melk": "Abația Melk",
+    "lilienfeld": "Abația Lilienfeld",
+    "ferdinand": "Muzeul Erzherzog Franz Ferdinand",
+    "viennaAirport": "Aeroportul Internațional Viena",
+    "wachau": "Valea Wachau",
+    "schallaburg": "Castelul Schallaburg",
+    "aggstein": "Castelul Aggstein",
+    "grafenegg": "Castelul Grafenegg",
+    "goettweig": "Abația Göttweig"
+  },
+  "home": {
+    "heroTitle": "Liniște, spațiu și confort la porțile văii Wachau",
+    "heroLead": "Apartamente complet utilate în Markersdorf-Haindorf, la 15 km de Abația Melk. Terasă cu vedere, bucătărie proprie, Wi-Fi și parcare gratuite.",
+    "introEyebrow": "Despre noi",
+    "introTitle": "Un loc superb în care să te bucuri de viață",
+    "introParagraphs": [
+      "Haus MaryLu se află în Knetzersdorf, la 15 km de Abația Melk, și oferă vedere la râu, Wi-Fi gratuit și parcare privată gratuită.",
+      "Fiecare unitate are o terasă cu vedere, un televizor cu ecran plat și canale prin satelit, o bucătărie complet utilată și o baie privată cu duș și uscător de păr. Oaspeții au la dispoziție un minibar, o plită, un prăjitor de pâine, precum și o cafetieră și un fierbător electric.",
+      "Oaspeții se pot relaxa în grădina proprietății, iar accesul dinspre autostradă este foarte facil."
+    ],
+    "amenitiesEyebrow": "Facilități",
+    "amenitiesTitle": "Tot ce-ți trebuie, deja în apartament",
+    "amenitiesLead": "Apartamentele sunt gândite pentru sejururi lungi la fel de bine ca pentru o noapte în tranzit.",
+    "galleryEyebrow": "Galerie",
+    "galleryTitle": "Aruncă o privire înăuntru",
+    "testimonialsEyebrow": "Recenzii",
+    "testimonialsTitle": "Ce spun oaspeții noștri",
+    "testimonials": [
+      {
+        "quote": "Foarte curat și mobilat cu gust, un apartament mare într-o zonă rurală. Plase de insecte sunt la toate ferestrele. Proprietarul a fost foarte prietenos: după o scurtă discuție despre dacă lipsește ceva, a mers imediat la cumpărături și ne-a lăsat totul la ușă. Paturi confortabile, totul a fost de primă clasă.",
+        "author": "Silvia",
+        "origin": "Germania"
+      },
+      {
+        "quote": "Foarte curat, liniște, apartament spațios, paturi confortabile, bucătărie utilată, proprietar prietenos. Este ușor de ajuns de pe autostradă, iar în apropiere sunt numeroase obiective turistice: valea Wachau pe malul Dunării, cu orașele și satele pitorești, Abația Melk, castelul Schallaburg, castelul Aggstein, castelul Grafenegg, Abația Göttweig.",
+        "author": "Daniela",
+        "origin": "România"
+      },
+      {
+        "quote": "Șederea noastră de o noapte în acest apartament a fost absolut perfectă! Totul ne-a depășit așteptările — de la curățenie, la confort și atenția la detalii. Vă mulțumim mult pentru primirea călduroasă și ospitalitate!",
+        "author": "Cristina",
+        "origin": "Elveția"
+      }
+    ],
+    "nearbyEyebrow": "Împrejurimi",
+    "nearbyTitle": "Wachau, la câteva minute distanță",
+    "nearbyLead": "Suntem la marginea uneia dintre cele mai frumoase regiuni ale Austriei, cu acces rapid dinspre autostradă.",
+    "sightsTitle": "De văzut în apropiere",
+    "distancesTitle": "Distanțe",
+    "ctaTitle": "Vino să stai la noi",
+    "ctaText": "Verifică disponibilitatea și rezervă direct, sau scrie-ne dacă ai întrebări."
+  },
+  "haus": {
+    "heroTitle": "Casa și apartamentele",
+    "heroLead": "Spațiu generos, dotări complete și liniștea zonei rurale austriece.",
+    "blocks": [
+      {
+        "eyebrow": "Casa",
+        "title": "Liniște, confort și natură în Austria",
+        "paragraphs": [
+          "Haus MaryLu este o pensiune cochetă, situată într-o zonă liniștită, aproape de Abația Melk și valea Dunării – Wachau. Oferă camere spațioase, complet utilate, atmosferă relaxantă și acces facil dinspre autostradă.",
+          "Locul ideal pentru o vacanță liniștită în inima naturii austriece."
+        ]
+      },
+      {
+        "eyebrow": "Apartamentele",
+        "title": "Apartamente spațioase, confort ca acasă",
+        "paragraphs": [
+          "La Haus MaryLu, apartamentele sunt complet echipate pentru a-ți oferi o ședere relaxantă și lipsită de griji. Fiecare unitate are bucătărie modernă, baie privată, terasă sau balcon cu vedere, și toate facilitățile necesare confortului zilnic.",
+          "Fie că ești în tranzit sau planifici o vacanță în regiunea Wachau, aici vei găsi liniște, intimitate și ospitalitate autentică."
+        ]
+      }
+    ],
+    "galleryEyebrow": "Galerie foto",
+    "galleryTitle": "Fiecare colț al casei",
+    "galleryLead": "Filtrează după cameră ca să vezi exact ce te interesează."
+  },
+  "contact": {
+    "heroTitle": "Contact",
+    "heroLead": "Scrie-ne sau sună-ne — răspundem în română, germană și engleză.",
+    "emailTitle": "Email",
+    "emailText": "Cel mai simplu mod de a ne contacta. Îți răspundem de obicei în aceeași zi.",
+    "phoneTitle": "Telefon",
+    "phoneText": "Ne poți suna direct pentru disponibilitate și detalii.",
+    "addressTitle": "Adresă",
+    "addressText": "Ne găsești ușor, la câteva minute de ieșirea de pe autostradă.",
+    "openMap": "Deschide în hărți",
+    "bookingTitle": "Rezervări",
+    "bookingText": "Disponibilitatea la zi și rezervarea online se fac prin Booking.com.",
+    "ctaTitle": "Ai o întrebare?",
+    "ctaText": "Trimite-ne un email și îți răspundem cât putem de repede.",
+    "emailSubject": "Cerere de rezervare – Haus MaryLu"
+  },
+  "footer": {
+    "tagline": "Apartamente de închiriat în Markersdorf-Haindorf, la porțile văii Wachau.",
+    "navTitle": "Navigare",
+    "contactTitle": "Contact",
+    "rights": "Toate drepturile rezervate.",
+    "credit": "Site realizat de"
+  }
+}

@@ -1,0 +1,88 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+}
+
+/* Cards stretch to a shared height so the row never looks ragged. */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  padding: var(--space-lg);
+  background: var(--c-white);
+  border: 1px solid var(--c-line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+
+.stars {
+  display: flex;
+  gap: 3px;
+  color: var(--c-gold);
+}
+
+.quote {
+  flex: 1;
+  margin: 0;
+  font-size: var(--t-sm);
+  line-height: 1.72;
+  color: var(--c-ink-2);
+}
+
+.quote::before {
+  content: open-quote;
+}
+
+.quote::after {
+  content: close-quote;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--c-line);
+}
+
+/* Scoped to the text block: as `.author span` this also matched the avatar and,
+   being the more specific selector, overrode its centring. */
+.authorText {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.35;
+}
+
+.author strong {
+  font-weight: 500;
+  color: var(--c-ink);
+  font-size: var(--t-sm);
+}
+
+.author small {
+  font-size: var(--t-xs);
+  color: var(--c-ink-3);
+}
+
+.avatar {
+  display: grid;
+  place-items: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--c-forest-soft);
+  color: var(--c-forest);
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    max-width: 40rem;
+    margin-inline: auto;
+  }
+}

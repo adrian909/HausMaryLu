@@ -1,0 +1,19 @@
+.mailSection {
+  background: var(--c-sand);
+  text-align: center;
+}
+
+.mailInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.title {
+  font-size: var(--t-2xl);
+}
+
+.button {
+  margin-top: var(--space-xs);
+}

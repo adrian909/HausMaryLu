@@ -1,0 +1,173 @@
+{
+  "label": "English",
+  "htmlLang": "en",
+  "meta": {
+    "home": {
+      "title": "Haus MaryLu – Apartments near Melk Abbey, Austria",
+      "description": "Spacious, fully equipped apartments in Markersdorf-Haindorf, Austria. Free Wi-Fi and parking, terrace with a view, 15 km from Melk Abbey and the Wachau."
+    },
+    "haus": {
+      "title": "The apartments and photo gallery – Haus MaryLu",
+      "description": "Apartments with a modern kitchen, private bathroom and terrace. Full photo gallery of Haus MaryLu in Markersdorf-Haindorf."
+    },
+    "contact": {
+      "title": "Contact & bookings – Haus MaryLu",
+      "description": "Write to hausmarylu@gmail.com or give us a call. Address: Winkel 8, 3384 Markersdorf-Haindorf, Austria."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "haus": "The house",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skipToContent": "Skip to content"
+  },
+  "common": {
+    "location": "Markersdorf-Haindorf",
+    "book": "Book on Booking.com",
+    "contact": "Get in touch",
+    "viewGallery": "See all photos",
+    "writeEmail": "Send us an email",
+    "call": "Call us",
+    "scroll": "Scroll",
+    "openPhoto": "Open photo",
+    "previous": "Previous photo",
+    "next": "Next photo",
+    "close": "Close"
+  },
+  "amenities": {
+    "wifi": "Free Wi-Fi",
+    "parking": "Free private parking",
+    "kitchen": "Fully equipped kitchen",
+    "bathroom": "Private bathroom with shower",
+    "tv": "Flat-screen TV with satellite channels",
+    "terrace": "Terrace with a view",
+    "garden": "Garden to relax in",
+    "coffee": "Coffee machine and electric kettle",
+    "minibar": "Minibar, stovetop and toaster"
+  },
+  "highlights": {
+    "wifi": "Free Wi-Fi in every apartment",
+    "parking": "Free private parking on site",
+    "kitchen": "Your own fully equipped kitchen",
+    "melk": "15 km from Melk Abbey"
+  },
+  "gallery": {
+    "all": "All",
+    "exterior": "Exterior",
+    "living": "Living room",
+    "kitchen": "Kitchen",
+    "bedroom": "Bedroom",
+    "bath": "Bathroom",
+    "terrace": "Terrace",
+    "altExterior": "Exterior of Haus MaryLu",
+    "altLiving": "Living room in a Haus MaryLu apartment",
+    "altKitchen": "The apartment's fully equipped kitchen",
+    "altBedroom": "Bedroom in the Haus MaryLu apartments",
+    "altBath": "Private bathroom with shower",
+    "altTerrace": "The apartment terrace, with a view",
+    "counter": "{current} of {total}"
+  },
+  "places": {
+    "melk": "Melk Abbey",
+    "lilienfeld": "Lilienfeld Abbey",
+    "ferdinand": "Erzherzog Franz Ferdinand Museum",
+    "viennaAirport": "Vienna International Airport",
+    "wachau": "The Wachau valley",
+    "schallaburg": "Schallaburg Castle",
+    "aggstein": "Aggstein Castle",
+    "grafenegg": "Grafenegg Castle",
+    "goettweig": "Göttweig Abbey"
+  },
+  "home": {
+    "heroTitle": "Quiet, space and comfort at the gateway to the Wachau",
+    "heroLead": "Fully equipped apartments in Markersdorf-Haindorf, 15 km from Melk Abbey. Terrace with a view, your own kitchen, free Wi-Fi and parking.",
+    "introEyebrow": "About us",
+    "introTitle": "A beautiful place to enjoy life",
+    "introParagraphs": [
+      "Haus MaryLu is located in Knetzersdorf, 15 km from Melk Abbey, and offers river views, free Wi-Fi and free private parking.",
+      "Each unit features a terrace with a view, a flat-screen TV with satellite channels, a fully equipped kitchen and a private bathroom with a shower and a hairdryer. Guests also have a minibar, a stovetop, a toaster, a coffee machine and an electric kettle.",
+      "Guests can relax in the property's garden, and the motorway is only minutes away."
+    ],
+    "amenitiesEyebrow": "Amenities",
+    "amenitiesTitle": "Everything you need, already in the apartment",
+    "amenitiesLead": "The apartments are set up for long stays just as well as for a single night on the road.",
+    "galleryEyebrow": "Gallery",
+    "galleryTitle": "Take a look inside",
+    "testimonialsEyebrow": "Reviews",
+    "testimonialsTitle": "What our guests say",
+    "testimonials": [
+      {
+        "quote": "Very clean and tastefully furnished, a large apartment in a rural area. There are insect screens on all windows. The host was very friendly: after a short conversation about whether anything was missing, he immediately went shopping and left everything at our door. Comfortable beds, everything was first-class.",
+        "author": "Silvia",
+        "origin": "Germany"
+      },
+      {
+        "quote": "Very clean, quiet, spacious apartment, comfortable beds, well-equipped kitchen and a friendly host. It's easy to reach from the motorway, and there are many attractions nearby: the Wachau valley along the Danube with its picturesque towns and villages, Melk Abbey, Schallaburg Castle, Aggstein Castle, Grafenegg Castle and Göttweig Abbey.",
+        "author": "Daniela",
+        "origin": "Romania"
+      },
+      {
+        "quote": "Our one-night stay in this apartment was absolutely perfect! Everything exceeded our expectations — from the cleanliness to the comfort and attention to detail. Thank you so much for the warm welcome and hospitality!",
+        "author": "Cristina",
+        "origin": "Switzerland"
+      }
+    ],
+    "nearbyEyebrow": "The area",
+    "nearbyTitle": "The Wachau, minutes away",
+    "nearbyLead": "We sit on the edge of one of Austria's most beautiful regions, with quick access from the motorway.",
+    "sightsTitle": "Worth seeing nearby",
+    "distancesTitle": "Distances",
+    "ctaTitle": "Come and stay with us",
+    "ctaText": "Check availability and book directly, or write to us if you have any questions."
+  },
+  "haus": {
+    "heroTitle": "The house and apartments",
+    "heroLead": "Generous space, full amenities and the quiet of the Austrian countryside.",
+    "blocks": [
+      {
+        "eyebrow": "The house",
+        "title": "Peace, comfort and nature in Austria",
+        "paragraphs": [
+          "Haus MaryLu is a charming guesthouse in a quiet area, close to Melk Abbey and the Danube valley – Wachau. It offers spacious, fully equipped rooms, a relaxing atmosphere and easy access from the motorway.",
+          "The ideal place for a peaceful holiday in the heart of Austrian nature."
+        ]
+      },
+      {
+        "eyebrow": "The apartments",
+        "title": "Spacious apartments, comfort like home",
+        "paragraphs": [
+          "At Haus MaryLu, the apartments are fully equipped to offer you a relaxing and worry-free stay. Each unit includes a modern kitchen, private bathroom, terrace or balcony with a view, and all the amenities needed for everyday comfort.",
+          "Whether you're just passing through or planning a holiday in the Wachau region, here you'll find peace, privacy and authentic Austrian hospitality."
+        ]
+      }
+    ],
+    "galleryEyebrow": "Photo gallery",
+    "galleryTitle": "Every corner of the house",
+    "galleryLead": "Filter by room to see exactly what you're interested in."
+  },
+  "contact": {
+    "heroTitle": "Contact",
+    "heroLead": "Write or call — we answer in Romanian, German and English.",
+    "emailTitle": "Email",
+    "emailText": "The easiest way to reach us. We usually reply the same day.",
+    "phoneTitle": "Phone",
+    "phoneText": "Call us directly for availability and details.",
+    "addressTitle": "Address",
+    "addressText": "Easy to find, a few minutes from the motorway exit.",
+    "openMap": "Open in maps",
+    "bookingTitle": "Reservations",
+    "bookingText": "Live availability and online booking go through Booking.com.",
+    "ctaTitle": "Have a question?",
+    "ctaText": "Send us an email and we'll get back to you as soon as we can.",
+    "emailSubject": "Booking enquiry – Haus MaryLu"
+  },
+  "footer": {
+    "tagline": "Apartments to rent in Markersdorf-Haindorf, at the gateway to the Wachau valley.",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved.",
+    "credit": "Website by"
+  }
+}

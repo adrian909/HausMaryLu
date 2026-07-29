@@ -1,0 +1,173 @@
+{
+  "label": "Deutsch",
+  "htmlLang": "de",
+  "meta": {
+    "home": {
+      "title": "Haus MaryLu – Apartments nahe Stift Melk, Wachau",
+      "description": "Geräumige, voll ausgestattete Apartments in Markersdorf-Haindorf. Kostenloses WLAN und Parkplatz, Terrasse mit Aussicht, 15 km von Stift Melk entfernt."
+    },
+    "haus": {
+      "title": "Die Apartments und Fotogalerie – Haus MaryLu",
+      "description": "Apartments mit moderner Küche, eigenem Bad und Terrasse. Komplette Fotogalerie des Haus MaryLu in Markersdorf-Haindorf."
+    },
+    "contact": {
+      "title": "Kontakt & Buchung – Haus MaryLu",
+      "description": "Schreiben Sie an hausmarylu@gmail.com oder rufen Sie uns an. Adresse: Winkel 8, 3384 Markersdorf-Haindorf, Österreich."
+    }
+  },
+  "nav": {
+    "home": "Startseite",
+    "haus": "Das Haus",
+    "contact": "Kontakt",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "skipToContent": "Zum Inhalt springen"
+  },
+  "common": {
+    "location": "Markersdorf-Haindorf",
+    "book": "Auf Booking.com buchen",
+    "contact": "Kontakt aufnehmen",
+    "viewGallery": "Alle Fotos ansehen",
+    "writeEmail": "Schreiben Sie uns eine E-Mail",
+    "call": "Rufen Sie uns an",
+    "scroll": "Scrollen",
+    "openPhoto": "Foto öffnen",
+    "previous": "Vorheriges Foto",
+    "next": "Nächstes Foto",
+    "close": "Schließen"
+  },
+  "amenities": {
+    "wifi": "Kostenloses WLAN",
+    "parking": "Kostenlose Privatparkplätze",
+    "kitchen": "Voll ausgestattete Küche",
+    "bathroom": "Eigenes Bad mit Dusche",
+    "tv": "Flachbild-TV mit Satellitenkanälen",
+    "terrace": "Terrasse mit Aussicht",
+    "garden": "Garten zum Entspannen",
+    "coffee": "Kaffeemaschine und Wasserkocher",
+    "minibar": "Minibar, Kochfeld und Toaster"
+  },
+  "highlights": {
+    "wifi": "Kostenloses WLAN in allen Apartments",
+    "parking": "Kostenlose Privatparkplätze am Haus",
+    "kitchen": "Eigene, voll ausgestattete Küche",
+    "melk": "15 km von Stift Melk entfernt"
+  },
+  "gallery": {
+    "all": "Alle",
+    "exterior": "Außenansicht",
+    "living": "Wohnzimmer",
+    "kitchen": "Küche",
+    "bedroom": "Schlafzimmer",
+    "bath": "Badezimmer",
+    "terrace": "Terrasse",
+    "altExterior": "Außenansicht des Haus MaryLu",
+    "altLiving": "Wohnzimmer eines Apartments im Haus MaryLu",
+    "altKitchen": "Die voll ausgestattete Küche des Apartments",
+    "altBedroom": "Schlafzimmer in den Apartments des Haus MaryLu",
+    "altBath": "Eigenes Bad mit Dusche",
+    "altTerrace": "Die Terrasse des Apartments mit Aussicht",
+    "counter": "{current} von {total}"
+  },
+  "places": {
+    "melk": "Stift Melk",
+    "lilienfeld": "Stift Lilienfeld",
+    "ferdinand": "Erzherzog-Franz-Ferdinand-Museum",
+    "viennaAirport": "Flughafen Wien",
+    "wachau": "Die Wachau",
+    "schallaburg": "Schloss Schallaburg",
+    "aggstein": "Burg Aggstein",
+    "grafenegg": "Schloss Grafenegg",
+    "goettweig": "Stift Göttweig"
+  },
+  "home": {
+    "heroTitle": "Ruhe, Platz und Komfort am Tor zur Wachau",
+    "heroLead": "Voll ausgestattete Apartments in Markersdorf-Haindorf, 15 km von Stift Melk. Terrasse mit Aussicht, eigene Küche, kostenloses WLAN und Parkplatz.",
+    "introEyebrow": "Über uns",
+    "introTitle": "Ein wunderschöner Ort, um das Leben zu genießen",
+    "introParagraphs": [
+      "Haus MaryLu befindet sich in Knetzersdorf, 15 km von Stift Melk entfernt, und bietet Flussblick, kostenloses WLAN und kostenfreie Privatparkplätze.",
+      "Jede Unterkunft verfügt über eine Terrasse mit Aussicht, einen Flachbild-Sat-TV, eine voll ausgestattete Küche sowie ein eigenes Bad mit Dusche und Haartrockner. Den Gästen stehen außerdem eine Minibar, ein Kochfeld, ein Toaster, eine Kaffeemaschine und ein Wasserkocher zur Verfügung.",
+      "Die Gäste können sich im Garten der Unterkunft entspannen, und die Autobahn ist nur wenige Minuten entfernt."
+    ],
+    "amenitiesEyebrow": "Ausstattung",
+    "amenitiesTitle": "Alles, was Sie brauchen, ist schon da",
+    "amenitiesLead": "Die Apartments eignen sich für längere Aufenthalte ebenso gut wie für eine einzelne Nacht auf der Durchreise.",
+    "galleryEyebrow": "Galerie",
+    "galleryTitle": "Werfen Sie einen Blick hinein",
+    "testimonialsEyebrow": "Bewertungen",
+    "testimonialsTitle": "Was unsere Gäste sagen",
+    "testimonials": [
+      {
+        "quote": "Sehr sauber und geschmackvoll eingerichtet, eine große Wohnung in ländlicher Gegend. Insektenschutzgitter sind an allen Fenstern vorhanden. Der Vermieter war sehr freundlich: nach einem kurzen Gespräch darüber, ob etwas fehlt, ging er sofort einkaufen und stellte alles vor die Tür. Bequeme Betten, alles war erstklassig.",
+        "author": "Silvia",
+        "origin": "Deutschland"
+      },
+      {
+        "quote": "Sehr sauber, ruhig, geräumiges Apartment, bequeme Betten, gut ausgestattete Küche, freundlicher Vermieter. Leicht von der Autobahn zu erreichen, und in der Nähe gibt es zahlreiche Sehenswürdigkeiten: das Wachautal an der Donau mit malerischen Städten und Dörfern, Stift Melk, Schloss Schallaburg, Burg Aggstein, Schloss Grafenegg und Stift Göttweig.",
+        "author": "Daniela",
+        "origin": "Rumänien"
+      },
+      {
+        "quote": "Unser einnächtiger Aufenthalt in diesem Apartment war absolut perfekt! Alles hat unsere Erwartungen übertroffen – von der Sauberkeit über den Komfort bis hin zur Liebe zum Detail. Vielen herzlichen Dank für den warmen Empfang und die Gastfreundschaft!",
+        "author": "Cristina",
+        "origin": "Schweiz"
+      }
+    ],
+    "nearbyEyebrow": "Die Umgebung",
+    "nearbyTitle": "Die Wachau, nur Minuten entfernt",
+    "nearbyLead": "Wir liegen am Rand einer der schönsten Regionen Österreichs, mit schneller Anbindung an die Autobahn.",
+    "sightsTitle": "Sehenswert in der Nähe",
+    "distancesTitle": "Entfernungen",
+    "ctaTitle": "Kommen Sie zu uns",
+    "ctaText": "Prüfen Sie die Verfügbarkeit und buchen Sie direkt, oder schreiben Sie uns bei Fragen."
+  },
+  "haus": {
+    "heroTitle": "Das Haus und die Apartments",
+    "heroLead": "Viel Platz, komplette Ausstattung und die Ruhe des österreichischen Landes.",
+    "blocks": [
+      {
+        "eyebrow": "Das Haus",
+        "title": "Ruhe, Komfort und Natur in Österreich",
+        "paragraphs": [
+          "Haus MaryLu ist eine gemütliche Pension in ruhiger Lage, nahe Stift Melk und dem Donautal Wachau. Sie bietet großzügige, voll ausgestattete Zimmer, eine entspannte Atmosphäre und eine gute Anbindung an die Autobahn.",
+          "Der ideale Ort für einen erholsamen Urlaub mitten in der Natur Österreichs."
+        ]
+      },
+      {
+        "eyebrow": "Die Apartments",
+        "title": "Geräumige Apartments – Komfort wie zu Hause",
+        "paragraphs": [
+          "Im Haus MaryLu sind die Apartments komplett ausgestattet, um Ihnen einen entspannten und sorgenfreien Aufenthalt zu bieten. Jede Einheit verfügt über eine moderne Küche, ein privates Bad, eine Terrasse oder einen Balkon mit Aussicht sowie alle Annehmlichkeiten für täglichen Komfort.",
+          "Ob Sie nur auf der Durchreise sind oder einen Urlaub in der Wachau planen – hier finden Sie Ruhe, Privatsphäre und echte österreichische Gastfreundschaft."
+        ]
+      }
+    ],
+    "galleryEyebrow": "Fotogalerie",
+    "galleryTitle": "Jeder Winkel des Hauses",
+    "galleryLead": "Filtern Sie nach Raum, um genau das zu sehen, was Sie interessiert."
+  },
+  "contact": {
+    "heroTitle": "Kontakt",
+    "heroLead": "Schreiben oder rufen Sie uns an — wir antworten auf Rumänisch, Deutsch und Englisch.",
+    "emailTitle": "E-Mail",
+    "emailText": "Der einfachste Weg, uns zu erreichen. Wir antworten meist noch am selben Tag.",
+    "phoneTitle": "Telefon",
+    "phoneText": "Rufen Sie uns direkt an für Verfügbarkeit und Details.",
+    "addressTitle": "Adresse",
+    "addressText": "Leicht zu finden, wenige Minuten von der Autobahnabfahrt.",
+    "openMap": "In Karten öffnen",
+    "bookingTitle": "Reservierungen",
+    "bookingText": "Aktuelle Verfügbarkeit und Online-Buchung laufen über Booking.com.",
+    "ctaTitle": "Haben Sie eine Frage?",
+    "ctaText": "Schreiben Sie uns eine E-Mail und wir melden uns so schnell wie möglich.",
+    "emailSubject": "Buchungsanfrage – Haus MaryLu"
+  },
+  "footer": {
+    "tagline": "Apartments zur Miete in Markersdorf-Haindorf, am Tor zur Wachau.",
+    "navTitle": "Navigation",
+    "contactTitle": "Kontakt",
+    "rights": "Alle Rechte vorbehalten.",
+    "credit": "Website von"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/index-ro.html", "destination": "/ro/", "permanent": true },
+    { "source": "/index-de.html", "destination": "/de/", "permanent": true },
+    { "source": "/haus-en.html", "destination": "/en/haus/", "permanent": true },
+    { "source": "/haus-ro.html", "destination": "/ro/haus/", "permanent": true },
+    { "source": "/haus-de.html", "destination": "/de/haus/", "permanent": true },
+    { "source": "/contact-en.html", "destination": "/en/contact/", "permanent": true },
+    { "source": "/contact-ro.html", "destination": "/ro/contact/", "permanent": true },
+    { "source": "/contact-de.html", "destination": "/de/contact/", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/img/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=2592000" }]
+    }
+  ]
+}

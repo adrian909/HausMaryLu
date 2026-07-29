@@ -1,0 +1,127 @@
+.hero {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  isolation: isolate;
+  color: var(--c-white);
+  overflow: hidden;
+}
+
+.full {
+  min-height: min(100svh, 880px);
+  padding-bottom: clamp(5rem, 12vh, 9rem);
+  padding-top: var(--header-h);
+}
+
+.page {
+  min-height: min(64svh, 560px);
+  padding-bottom: var(--space-2xl);
+  padding-top: calc(var(--header-h) + var(--space-xl));
+}
+
+.image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  animation: slowZoom 18s var(--ease) forwards;
+}
+
+@keyframes slowZoom {
+  from {
+    transform: scale(1.06);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.scrim {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+      to top,
+      rgba(20, 18, 15, 0.82) 0%,
+      rgba(20, 18, 15, 0.42) 45%,
+      rgba(20, 18, 15, 0.25) 100%
+    ),
+    linear-gradient(to right, rgba(20, 18, 15, 0.45), transparent 65%);
+}
+
+.content {
+  position: relative;
+  max-width: 62rem;
+}
+
+.eyebrow {
+  color: rgba(255, 255, 255, 0.82);
+  margin-bottom: var(--space-sm);
+}
+
+.title {
+  color: var(--c-white);
+  max-width: 18ch;
+}
+
+.page .title {
+  font-size: var(--t-3xl);
+  max-width: 22ch;
+}
+
+.lead {
+  margin-top: var(--space-md);
+  max-width: 46ch;
+  font-size: var(--t-lg);
+  font-weight: 300;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+}
+
+.scrollCue {
+  position: absolute;
+  bottom: var(--space-lg);
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: var(--t-xs);
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  animation: bob 2.6s ease-in-out infinite;
+}
+
+@keyframes bob {
+  0%,
+  100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, 6px);
+  }
+}
+
+@media (max-width: 640px) {
+  .scrollCue {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .image,
+  .scrollCue {
+    animation: none;
+  }
+}
